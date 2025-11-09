@@ -250,7 +250,3 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 - Project Homepage: https://github.com/KHWLGH/EasyPD/EasyPD
 - Issue Tracker: https://github.com/KHWLGH/EasyPD/EasyPD/issues
-
----
-
-**Note:** Please replace `yourusername` with your actual GitHub username in the URLs above.
