@@ -36,7 +36,7 @@ EasyPD 是一款开源的 USB Power Delivery (USB-PD) 协议分析工具，提�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/KHWLGH/EasyPD/EasyPD.git
+git clone https://github.com/KHWLGH/EasyPD.git
 cd EasyPD
 ```
 
@@ -52,7 +52,7 @@ python EasyPD.py
 
 #### 使用编译版本
 
-从 [Releases](https://github.com/KHWLGH/EasyPD/EasyPD/releases) 页面下载最新的可执行文件，直接运行即可。
+从 [Releases](https://github.com/KHWLGH/EasyPD/releases) 页面下载最新的可执行文件，直接运行即可。
 
 ### 依赖项
 
@@ -123,8 +123,8 @@ EasyPD/
 
 ### 联系方式
 
-- 项目主页: https://github.com/KHWLGH/EasyPD/EasyPD
-- 问题反馈: https://github.com/KHWLGH/EasyPD/EasyPD/issues
+- 项目主页: https://github.com/KHWLGH/EasyPD
+- 问题反馈: https://github.com/KHWLGH/EasyPD/issues
 
 ---
 
@@ -158,7 +158,7 @@ EasyPD is an open-source USB Power Delivery (USB-PD) protocol analyzer tool that
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/KHWLGH/EasyPD/EasyPD.git
+git clone https://github.com/KHWLGH/EasyPD.git
 cd EasyPD
 ```
 
@@ -174,7 +174,7 @@ python EasyPD.py
 
 #### Using Compiled Version
 
-Download the latest executable from the [Releases](https://github.com/KHWLGH/EasyPD/EasyPD/releases) page and run it directly.
+Download the latest executable from the [Releases](https://github.com/KHWLGH/EasyPD/releases) page and run it directly.
 
 ### Dependencies
 
@@ -248,5 +248,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ### Contact
 
-- Project Homepage: https://github.com/KHWLGH/EasyPD/EasyPD
-- Issue Tracker: https://github.com/KHWLGH/EasyPD/EasyPD/issues
+- Project Homepage: https://github.com/KHWLGH/EasyPD
+- Issue Tracker: https://github.com/KHWLGH/EasyPD/issues
