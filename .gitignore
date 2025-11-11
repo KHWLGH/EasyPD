@@ -25,7 +25,6 @@ EasyPD.onefile-build/
 *.const
 *.c
 *.h
-*.txt
 *.bat
 *.pyc
 *.log
@@ -36,7 +35,8 @@ EasyPD.onefile-build/
 .vscode/
 .idea/
 *.sublime-workspace
-*.sublime-project
+*.sublime-project、
+.claude/
 
 # OS
 .DS_Store

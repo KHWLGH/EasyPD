@@ -2,7 +2,7 @@
 
 # EasyPD
 
-[English](#english) | [中文](#中文)
+[English](#english) | [中文](#中文) | [Changelog](CHANGELOG.md)
 
 ---
 
@@ -12,6 +12,8 @@
 **注意：本软件大部分使用Copilot等VibeCoding工具制作，可能存在未知问题**
 
 EasyPD 是一款开源的 USB Power Delivery (USB-PD) 协议分析工具，提供直观的图形界面用于实时捕获、分析和记录 USB-PD 通信数据。支持 PDO（Power Data Object）和 RDO（Request Data Object）解析，以及线缆信息（VDM）识别。
+
+查看 [更新日志](CHANGELOG.md) 了解版本更新详情。
 
 ### 主要特性
 
@@ -36,7 +38,7 @@ EasyPD 是一款开源的 USB Power Delivery (USB-PD) 协议分析工具，提�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/KHWLGH/EasyPD/EasyPD.git
+git clone https://github.com/KHWLGH/EasyPD.git
 cd EasyPD
 ```
 
@@ -52,7 +54,7 @@ python EasyPD.py
 
 #### 使用编译版本
 
-从 [Releases](https://github.com/KHWLGH/EasyPD/EasyPD/releases) 页面下载最新的可执行文件，直接运行即可。
+从 [Releases](https://github.com/KHWLGH/EasyPD/releases) 页面下载最新的可执行文件，直接运行即可。
 
 ### 依赖项
 
@@ -123,8 +125,8 @@ EasyPD/
 
 ### 联系方式
 
-- 项目主页: https://github.com/KHWLGH/EasyPD/EasyPD
-- 问题反馈: https://github.com/KHWLGH/EasyPD/EasyPD/issues
+- 项目主页: https://github.com/KHWLGH/EasyPD
+- 问题反馈: https://github.com/KHWLGH/EasyPD/issues
 
 ---
 
@@ -134,6 +136,8 @@ EasyPD/
 **Note: Most of this software was created using VibeCoding tools such as Copilot, and there may be unknown issues.**
 
 EasyPD is an open-source USB Power Delivery (USB-PD) protocol analyzer tool that provides an intuitive graphical interface for real-time capture, analysis, and recording of USB-PD communication data. It supports PDO (Power Data Object) and RDO (Request Data Object) parsing, as well as cable information (VDM) identification.
+
+See [Changelog](CHANGELOG.md) for version history.
 
 ### Key Features
 
@@ -158,7 +162,7 @@ EasyPD is an open-source USB Power Delivery (USB-PD) protocol analyzer tool that
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/KHWLGH/EasyPD/EasyPD.git
+git clone https://github.com/KHWLGH/EasyPD.git
 cd EasyPD
 ```
 
@@ -174,7 +178,7 @@ python EasyPD.py
 
 #### Using Compiled Version
 
-Download the latest executable from the [Releases](https://github.com/KHWLGH/EasyPD/EasyPD/releases) page and run it directly.
+Download the latest executable from the [Releases](https://github.com/KHWLGH/EasyPD/releases) page and run it directly.
 
 ### Dependencies
 
@@ -248,5 +252,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ### Contact
 
-- Project Homepage: https://github.com/KHWLGH/EasyPD/EasyPD
-- Issue Tracker: https://github.com/KHWLGH/EasyPD/EasyPD/issues
+- Project Homepage: https://github.com/KHWLGH/EasyPD
+- Issue Tracker: https://github.com/KHWLGH/EasyPD/issues
