@@ -95,11 +95,18 @@ nuitka --onefile --windows-console-mode=disable --windows-icon-from-ico='./favic
 
 ```
 EasyPD/
-├── EasyPD.py              # 主程序文件
-├── vendor_ids_dict.py     # USB 厂商 ID 字典
-├── requirements.txt       # Python 依赖
-├── favicon.ico           # 应用图标
-└── README.md             # 本文件
+├── EasyPD.py              # 主程序（入口）
+├── device_comm.py        # 设备通信封装（witrnhid / hid 接口）
+├── pd_decoder.py         # USB-PD 数据解析逻辑
+├── i18n.py               # 国际化字符串
+├── vendor_ids_dict.py    # 厂商 ID 字典
+├── requirements.txt      # 运行依赖
+├── CHANGELOG.md          # 更新日志
+├── README.md             # 本文件
+├── LICENSE               # 许可证（GPL v3）
+└── favicon.ico           # 应用图标（可选）
+
+注：项目中还包含若干由构建或运行时生成并通常被忽略的目录/文件，例如 `.venv/`, `__pycache__/`, `EasyPD.build/`, `EasyPD.dist/`, `EasyPD.onefile-build/` 等（见 `.gitignore`）。这些不列入上面的清单以避免与版本控制中的实际源文件混淆。
 ```
 
 
@@ -223,11 +230,18 @@ nuitka --onefile ^
 
 ```
 EasyPD/
-├── EasyPD.py              # Main program file
-├── vendor_ids_dict.py     # USB Vendor ID dictionary
-├── requirements.txt       # Python dependencies
-├── favicon.ico           # Application icon
-└── README.md             # This file
+├── EasyPD.py              # Main program (entry)
+├── device_comm.py        # Device communication wrapper (witrnhid / hid)
+├── pd_decoder.py         # USB-PD decoding logic
+├── i18n.py               # Internationalization strings
+├── vendor_ids_dict.py    # Vendor ID dictionary
+├── requirements.txt      # Runtime dependencies
+├── CHANGELOG.md          # Changelog
+├── README.md             # This file
+├── LICENSE               # License (GPL v3)
+└── favicon.ico           # Application icon (optional)
+
+Note: The project also generates several build/runtime files and directories that are normally ignored by version control (see `.gitignore`), such as `.venv/`, `__pycache__/`, `EasyPD.build/`, `EasyPD.dist/`, and `EasyPD.onefile-build/`. These are omitted from the list above to avoid confusion with source files.
 ```
 
 ### Contributing
