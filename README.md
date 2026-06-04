@@ -9,6 +9,9 @@
 ## 中文
 
 ### 简介
+
+> **⚠️ 状态通知：本项目即将归档，将停止开发和活跃维护。**
+
 **注意：本软件大部分使用Copilot等VibeCoding工具制作，可能存在未知问题**
 
 EasyPD 是一款开源的 USB Power Delivery (USB-PD) 协议分析工具，提供直观的图形界面用于实时捕获、分析和记录 USB-PD 通信数据。支持 PDO（Power Data Object）和 RDO（Request Data Object）解析，以及线缆信息（VDM）识别。
@@ -140,6 +143,9 @@ EasyPD/
 ## English
 
 ### Introduction
+
+> **⚠️ Status Notice: This project will be archived soon and will no longer be actively maintained.**
+
 **Note: Most of this software was created using VibeCoding tools such as Copilot, and there may be unknown issues.**
 
 EasyPD is an open-source USB Power Delivery (USB-PD) protocol analyzer tool that provides an intuitive graphical interface for real-time capture, analysis, and recording of USB-PD communication data. It supports PDO (Power Data Object) and RDO (Request Data Object) parsing, as well as cable information (VDM) identification.
